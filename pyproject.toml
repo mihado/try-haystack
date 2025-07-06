@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "datasets>=2.6.1",
     "google-genai-haystack>=1.2.0",
     "haystack-ai>=2.15.2",
     "ollama-haystack>=3.4.0",
+    "sentence-transformers>=4.1.0",
 ]
